@@ -1,0 +1,29 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "verified": true,
+    "followers": 120,
+    "avatar": "/default-avatar.png",
+    "banner": ""
+  },
+  {
+    "username": "alice",
+    "password": "alice123",
+    "role": "user",
+    "verified": true,
+    "followers": 34,
+    "avatar": "/default-avatar.png",
+    "banner": ""
+  },
+  {
+    "username": "bob",
+    "password": "bob123",
+    "role": "user",
+    "verified": false,
+    "followers": 8,
+    "avatar": "/default-avatar.png",
+    "banner": ""
+  }
+]
