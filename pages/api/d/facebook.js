@@ -1,0 +1,1 @@
+export default async function handler(req,res){ try{ const {url} = req.query; if(!url) return res.status(400).json({error:'Missing url'}); const r = await fetch(`https://api.siputzx.my.id/api/d/facebook?url=${encodeURIComponent(url)}`); const data = await r.json(); res.status(r.ok?200:500).json(data) }catch(e){ res.status(500).json({error:'Proxy failed', detail:String(e)}) } }
