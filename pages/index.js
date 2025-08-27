@@ -1,0 +1,2 @@
+import Layout from '@/components/Layout'
+export default function Home(){ return (<Layout><section className='container py-20 text-center'><h1 className='text-4xl font-extrabold'>Hosting modern + Codeshare</h1><p className='mt-4 text-gray-600'>Deploy, share JS snippets, and use integrated APIs.</p><div className='mt-8'><a href='/codeshare' className='btn btn-primary'>Go to Codeshare</a></div></section></Layout>) }
