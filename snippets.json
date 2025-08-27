@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hello-world",
+    "title": "Hello World JS",
+    "author": "admin",
+    "code": "console.log('Hello, world!');",
+    "likes": 5,
+    "views": 42,
+    "comments": []
+  },
+  {
+    "id": "fetch-example",
+    "title": "Fetch API Example",
+    "author": "alice",
+    "code": "fetch('https://api.example.com/data').then(r=>r.json()).then(console.log)",
+    "likes": 2,
+    "views": 15,
+    "comments": [
+      {
+        "author": "bob",
+        "text": "Nice snippet!",
+        "time": "2025-08-26T00:00:00Z"
+      }
+    ]
+  }
+]
