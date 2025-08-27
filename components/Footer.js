@@ -1,0 +1,1 @@
+export default function Footer(){ return (<footer className="mt-16 border-t bg-white"><div className="container py-6 text-center text-sm text-gray-600">© 2025 HostingKu • Built with Next.js</div></footer>) }
